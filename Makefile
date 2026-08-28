@@ -1,4 +1,5 @@
 .PHONY: install test run format format-fix lint docker-build docker-run docker-test clean
+IMAGE_NAME := data-engineering-demo
 
 format:
 	python -m black --check .
