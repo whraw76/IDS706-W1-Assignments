@@ -3,12 +3,8 @@
 format:
 	python -m black --check .
 
-format-fix:
-	python -m black .
-
 lint:
 	python -m ruff check .
-IMAGE_NAME := data-engineering-demo
 
 # Install dependencies
 install:
